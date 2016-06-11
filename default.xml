@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="rose" fetch="git://github.com/rose-project" />
+    <remote name="qt5" fetch="git://github.com/meta-qt5" />
+    <remote name="yocto" fetch="git://git.yoctoproject.org" />
+    <default remote="rose" revision="master" />
+
+    <project name="poky" path="layers" remote="yocto" revision="krogoth" />
+    <project name="meta-qt5" path="layers/meta-qt5" remote="qt5" revision="krogoth" />
+    <project name="meta-raspberrypi-bsp" path="layers/meta-raspberrypi-bsp" remote="rose" upstream="master" revision="6cacf1bc7fe84fb283a3ea4483059f58848279d8"/>
+    <project name="meta-rose" path="layers/meta-rose" remote="rose" upstream="master" revision="3f66ac35ddc9e9f1f5c26584d5a13791d97f44fe" />
+    <project name="meta-villa" path="layers/meta-villa" remote="rose" upstream="master" revision="6cff19c8dac14c9de4f2003da2de51b4505b10fd" />    
+</manifest>
