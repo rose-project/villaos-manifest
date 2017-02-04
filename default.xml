@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="rose" fetch="git://github.com/rose-project" />
+    <remote name="rose" fetch="https://github.com/rose-project" />
     <remote name="qt5" fetch="git://github.com/meta-qt5" />
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
