@@ -9,7 +9,7 @@
     <project name="openembedded-core" path="layers" remote="openembedded" revision="rocko" />
     <project name="bitbake" path="layers/bitbake" remote="openembedded" revision="1.36" />
     <project name="yocto/meta-qt5" path="layers/meta-qt5" remote="qt5" revision="5.10" />
-    <project name="meta-raspberrypi-bsp" path="layers/meta-raspberrypi-bsp" remote="rose" upstream="master" revision="6cacf1bc7fe84fb283a3ea4483059f58848279d8"/>
-    <project name="meta-rose" path="layers/meta-rose" remote="rose" upstream="master" revision="3f66ac35ddc9e9f1f5c26584d5a13791d97f44fe" />
-    <project name="meta-villa" path="layers/meta-villa" remote="rose" upstream="master" revision="6cff19c8dac14c9de4f2003da2de51b4505b10fd" />    
+    <project name="meta-raspberrypi-bsp" path="layers/meta-raspberrypi-bsp" remote="rose" revision="rocky"/>
+    <project name="meta-rose" path="layers/meta-rose" remote="rose" revision="rocky" />
+    <project name="meta-villa" path="layers/meta-villa" remote="rose" revision="rocky" />    
 </manifest>
