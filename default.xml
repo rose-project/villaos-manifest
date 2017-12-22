@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="rose" fetch="https://github.com/rose-project" />
-    <remote name="qt5" fetch="git://code.qt.io" />
+    <remote name="qt5" fetch="https://github.com/meta-qt5" />
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <default remote="rose" revision="master" />
 
     <project name="openembedded-core" path="layers" remote="openembedded" revision="rocko" />
     <project name="bitbake" path="layers/bitbake" remote="openembedded" revision="1.36" />
-    <project name="yocto/meta-qt5" path="layers/meta-qt5" remote="qt5" revision="5.10" />
+    <project name="meta-qt5" path="layers/meta-qt5" remote="qt5" revision="rocky" />
     <project name="meta-raspberrypi-bsp" path="layers/meta-raspberrypi-bsp" remote="rose" revision="rocky"/>
     <project name="meta-rose" path="layers/meta-rose" remote="rose" revision="rocky" />
     <project name="meta-villa" path="layers/meta-villa" remote="rose" revision="rocky" />    
