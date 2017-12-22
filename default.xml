@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="rose" fetch="https://github.com/rose-project" />
-    <remote name="qt5" fetch="git://code.qt.io/yocto/meta-qt5.git" />
+    <remote name="qt5" fetch="https://code.qt.io/yocto/meta-qt5.git" />
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <default remote="rose" revision="master" />
