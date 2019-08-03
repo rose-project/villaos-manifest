@@ -8,7 +8,7 @@
 
     <project name="openembedded-core" path="buildconfig" remote="openembedded" revision="warrior" />
     <project name="bitbake" path="buildconfig/bitbake" remote="openembedded" revision="1.42" />
-    <project name="meta-raspberrypi-bsp" path="buildconfig/meta-raspberrypi-bsp" remote="rose" revision="master"/>
+    <project name="meta-raspberrypi" path="buildconfig/meta-raspberrypi" remote="yocto" revision="warrior"/>
     <project name="meta-rose" path="buildconfig/meta-rose" remote="rose" revision="master" />
     <project name="meta-villa" path="buildconfig/meta-villa" remote="rose" revision="master" />    
 </manifest>
