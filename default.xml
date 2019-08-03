@@ -6,9 +6,9 @@
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <default remote="rose" revision="master" />
 
-    <project name="openembedded-core" path="layers" remote="openembedded" revision="warrior" />
-    <project name="bitbake" path="bitbake" remote="openembedded" revision="1.34" />
-    <project name="meta-raspberrypi-bsp" path="layers/meta-raspberrypi-bsp" remote="rose" revision="master"/>
-    <project name="meta-rose" path="layers/meta-rose" remote="rose" revision="master" />
-    <project name="meta-villa" path="layers/meta-villa" remote="rose" revision="master" />    
+    <project name="openembedded-core" path="buildconfig" remote="openembedded" revision="warrior" />
+    <project name="bitbake" path="buildconfig/bitbake" remote="openembedded" revision="1.34" />
+    <project name="meta-raspberrypi-bsp" path="buildconfig/meta-raspberrypi-bsp" remote="rose" revision="master"/>
+    <project name="meta-rose" path="buildconfig/meta-rose" remote="rose" revision="master" />
+    <project name="meta-villa" path="buildconfig/meta-villa" remote="rose" revision="master" />    
 </manifest>
