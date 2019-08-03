@@ -11,7 +11,7 @@ $ repo sync
 ```
 $ cd layers
 $ echo "TEMPLATECONF=\${TEMPLATECONF:-meta-villa/conf}" > .templateconf
-$ . oe-init-build-env 
+$ MACHINE=raspberrypi2 . oe-init-build-env ../build-raspberrypi2
 ```
 
 You now may want to edit conf/local.conf for your needs (MACHINE variable etc.) and the run bitbake. 
